@@ -1,0 +1,15 @@
+diff --git a/bukkit/src/main/java/me/pikamug/quests/storage/implementation/file/BukkitQuesterYamlStorage.java b/bukkit/src/main/java/me/pikamug/quests/storage/implementation/file/BukkitQuesterYamlStorage.java
+index 7a2c503..d640d21 100644
+--- a/bukkit/src/main/java/me/pikamug/quests/storage/implementation/file/BukkitQuesterYamlStorage.java
++++ b/bukkit/src/main/java/me/pikamug/quests/storage/implementation/file/BukkitQuesterYamlStorage.java
+@@ -287,9 +287,7 @@ public class BukkitQuesterYamlStorage implements QuesterStorageImpl {
+     @Override
+     public String getQuesterLastKnownName(final UUID uniqueId) {
+         Quester quester = plugin.getQuester(uniqueId);
+-        if (quester != null) {
+-            quester.hardClear();
+-        } else {
++        if (quester == null) {
+             quester = new BukkitQuester(plugin, uniqueId);
+         }
+         return quester.getLastKnownName();

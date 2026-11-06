@@ -1,0 +1,11 @@
+PASS control save preserves YAML bytes
+PASS name lookup returns the stored name
+PASS registered quester identity is preserved
+FAIL current quest and stage are preserved
+FAIL current stage object is preserved
+FAIL quest progress object is preserved
+FAIL objective counts are preserved
+FAIL completion count is preserved
+PASS completed quests and timestamps are preserved
+PASS quest points are preserved
+FAIL save after name lookup preserves YAML bytes

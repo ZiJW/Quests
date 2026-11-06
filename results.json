@@ -1,0 +1,97 @@
+{
+  "completed": true,
+  "minecraft_eula_accepted_after_explicit_user_authorization": true,
+  "no_player_client_used": true,
+  "public_path_redaction": "Absolute task workspace prefixes are replaced with <workspace> in public logs/casts; original complete recordings remain in paper-probe/recordings. No server messages added or removed.",
+  "same_probe_jar_in_both_runs": true,
+  "paper_jar_sha256": "5ee4f542f628a14c644410b08c94ea42e772ef4d29fe92973636b6813d4eaffc",
+  "runs": {
+    "baseline": {
+      "server": "Paper 1.21.4-232-12d8fe0",
+      "java": "OpenJDK 21+35-2513",
+      "source_commit": "da9ecdd02ff6e7280cdf78fa9b3326b36aecce81",
+      "assertions_passed": 5,
+      "assertions_failed": 6,
+      "started_utc": "2026-11-06T18:59:32.399104+00:00",
+      "elapsed_seconds": 113.777,
+      "returncode": 0,
+      "evidence_directory": "paper-probe/server-baseline/plugins/NameLookupProbe/evidence-1793991657351",
+      "recording_directory": "paper-probe/recordings/baseline-20261107-025932",
+      "yaml_sha256": {
+        "before.yml": "b0a8b5cef217fcd651c3a2961708add19086d5d79701d9929926620b20053aa0",
+        "control-save.yml": "b0a8b5cef217fcd651c3a2961708add19086d5d79701d9929926620b20053aa0",
+        "after.yml": "01f514fa57fb7524dcaf09bba7767ae5b5f2c44fd4fbd3dd3b8f5fc1f525cb9f"
+      },
+      "artifacts": {
+        "plugins/Quests.jar": "2a064d854d7c5db0bc1dfd9c7b54160ac89da4e5b57ccf41ee2b8ae6671ef7a9",
+        "plugins/NameLookupProbe.jar": "ebfb7df561c2c17b4fe48e7df2af6ff818d3f2b47f3167290c7645701946f7a9",
+        "plugins/.paper-remapped/Quests.jar": "cd4265e607cc6e7591f888ff551e84dbbab6def368b3f05b81b028c627e3544c",
+        "plugins/.paper-remapped/NameLookupProbe.jar": "4c291585321a6fd0642bb0f70dcb54c7591b524b59ed3efd729469ad8c05f346"
+      },
+      "fixture_removed": true,
+      "commands": [
+        {
+          "elapsed": 84.915503,
+          "command": "quests-name-lookup-probe"
+        },
+        {
+          "elapsed": 104.830177,
+          "command": "stop"
+        }
+      ]
+    },
+    "patched": {
+      "server": "Paper 1.21.4-232-12d8fe0",
+      "java": "OpenJDK 21+35-2513",
+      "source_commit": "8264c7d3b27f1cc236b48f86a92409cbf60d3892",
+      "assertions_passed": 11,
+      "assertions_failed": 0,
+      "started_utc": "2026-11-06T19:01:52.151530+00:00",
+      "elapsed_seconds": 124.706,
+      "returncode": 0,
+      "evidence_directory": "paper-probe/server-patched/plugins/NameLookupProbe/evidence-1793991807588",
+      "recording_directory": "paper-probe/recordings/patched-20261107-030152",
+      "yaml_sha256": {
+        "before.yml": "b0a8b5cef217fcd651c3a2961708add19086d5d79701d9929926620b20053aa0",
+        "control-save.yml": "b0a8b5cef217fcd651c3a2961708add19086d5d79701d9929926620b20053aa0",
+        "after.yml": "b0a8b5cef217fcd651c3a2961708add19086d5d79701d9929926620b20053aa0"
+      },
+      "artifacts": {
+        "plugins/Quests.jar": "2ecca45970fed7b20dc897f025634667be99cf05175ea01f2ddcd682ee869bf0",
+        "plugins/NameLookupProbe.jar": "ebfb7df561c2c17b4fe48e7df2af6ff818d3f2b47f3167290c7645701946f7a9",
+        "plugins/.paper-remapped/Quests.jar": "731c93d947876aa215604044aa34c13f6d56e11ffb20c552a029838a6d2a0bf5",
+        "plugins/.paper-remapped/NameLookupProbe.jar": "4c291585321a6fd0642bb0f70dcb54c7591b524b59ed3efd729469ad8c05f346"
+      },
+      "fixture_removed": true,
+      "commands": [
+        {
+          "elapsed": 95.404303,
+          "command": "quests-name-lookup-probe"
+        },
+        {
+          "elapsed": 116.601121,
+          "command": "stop"
+        }
+      ]
+    }
+  },
+  "listeners_after_tests": [
+    {
+      "checked_at": "2026-11-07T03:04:23.919242+08:00",
+      "port": 25581,
+      "lsof_exit": 1,
+      "output": "",
+      "stderr": "",
+      "stopped": true
+    },
+    {
+      "checked_at": "2026-11-07T03:04:24.017583+08:00",
+      "port": 25582,
+      "lsof_exit": 1,
+      "output": "",
+      "stderr": "",
+      "stopped": true
+    }
+  ],
+  "validation_scope": "11 live-server assertions. Additional null fallback and uncached-name controls were run in the isolated 13-check JVM harness."
+}

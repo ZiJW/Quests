@@ -1,0 +1,20 @@
+questData:
+  name-lookup-regression:
+    blocks-broken-amounts:
+    - 7
+    fish-caught: 2
+currentQuests:
+- name-lookup-regression
+currentStages:
+- 1
+quest-points: 12
+completed-Quests:
+- name-lookup-regression
+completedRedoableQuests:
+- name-lookup-regression
+completedQuestTimes:
+- 123456789
+amountsCompletedQuests:
+- name-lookup-regression
+amountsCompleted:
+- 3

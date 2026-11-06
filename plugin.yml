@@ -1,0 +1,8 @@
+name: NameLookupProbe
+version: 1.0
+main: regression.NameLookupProbe
+api-version: '1.19'
+depend: [Quests]
+commands:
+  quests-name-lookup-probe:
+    description: Run the explicit name-lookup regression on a disposable YAML server

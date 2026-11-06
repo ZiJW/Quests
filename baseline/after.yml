@@ -1,0 +1,9 @@
+currentQuests: []
+currentStages: []
+quest-points: 12
+completed-Quests:
+- name-lookup-regression
+completedRedoableQuests:
+- name-lookup-regression
+completedQuestTimes:
+- 123456789

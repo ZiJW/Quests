@@ -1,0 +1,152 @@
+Downloading mojang_1.21.4.jar
+Applying patches
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build from https://papermc.io/downloads/paper ***
+[02:59:46 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21+35-2513; Oracle Corporation null) on Mac OS X 15.7.5 (x86_64)
+[02:59:46 INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[02:59:47 INFO]: [PluginInitializerManager] Initializing plugins...
+[02:59:47 INFO]: [ReobfServer] Remapping server...
+[02:59:57 INFO]: [ReobfServer] Done remapping server in 9931ms.
+[02:59:57 INFO]: [PluginRemapper] Remapping plugin 'plugins/NameLookupProbe.jar'...
+[02:59:57 INFO]: [PluginRemapper] Remapping plugin 'plugins/Quests.jar'...
+[02:59:58 INFO]: [PluginRemapper] Done remapping plugin 'plugins/NameLookupProbe.jar' in 372ms.
+[02:59:59 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Quests.jar' in 1717ms.
+[02:59:59 INFO]: [PluginInitializerManager] Initialized 2 plugins
+[02:59:59 INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - NameLookupProbe (1.0), Quests (5.3.3-b571)
+[03:00:06 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:00:06 INFO]: Found new data pack file/bukkit, loading it automatically
+[03:00:06 INFO]: Found new data pack paper, loading it automatically
+[03:00:07 INFO]: No existing world data, creating new world
+[31;1m[03:00:07 ERROR]: No key layers in MapLike[{}]
+[m[03:00:09 INFO]: Loaded 1370 recipes
+[03:00:09 INFO]: Loaded 1481 advancements
+[03:00:09 INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[03:00:09 INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 385.9ms
+[03:00:09 INFO]: Starting minecraft server version 1.21.4
+[03:00:09 INFO]: Loading properties
+[03:00:09 INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[03:00:09 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:00:10 INFO]: Server Ping Player Sample Count: 12
+[03:00:10 INFO]: Using 4 threads for Netty based IO
+[03:00:11 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:00:11 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+>   [03:00:11 INFO]: Default game type: SURVIVAL
+>   [03:00:11 INFO]: Generating keypair
+>   [03:00:11 INFO]: Starting Minecraft server on 127.0.0.1:25581
+>   [03:00:11 INFO]: Using default channel type
+>   [03:00:11 INFO]: Paper: Using Java compression from Velocity.
+>   [03:00:11 INFO]: Paper: Using Java cipher from Velocity.
+>   [03:00:11 INFO]: [Quests] Loading server plugin Quests v5.3.3-b571
+>   [03:00:11 INFO]: [NameLookupProbe] Loading server plugin NameLookupProbe v1.0
+>   [33;1m[03:00:11 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m>   [33;1m[03:00:11 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m>   [33;1m[03:00:11 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m>   [33;1m[03:00:11 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m>   [03:00:11 INFO]: Preparing level "world"
+>   [31;1m[03:00:11 ERROR]: No key layers in MapLike[{}]
+[m>   [31;1m[03:00:13 ERROR]: No key layers in MapLike[{}]
+[m>   [31;1m[03:00:16 ERROR]: No key layers in MapLike[{}]
+[m>   [03:00:17 INFO]: Preparing start region for dimension minecraft:overworld
+>   [03:00:17 INFO]: Preparing spawn area: 2%
+>   [03:00:17 INFO]: Time elapsed: 427 ms
+>   [03:00:17 INFO]: Preparing start region for dimension minecraft:the_nether
+>   [03:00:17 INFO]: Preparing spawn area: 2%
+>   [03:00:18 INFO]: Preparing spawn area: 2%
+>   [03:00:18 INFO]: Preparing spawn area: 2%
+>   [03:00:19 INFO]: Preparing spawn area: 18%
+>   [03:00:19 INFO]: Preparing spawn area: 18%
+>   [03:00:20 INFO]: Preparing spawn area: 51%
+>   [03:00:20 INFO]: Preparing spawn area: 53%
+>   [03:00:21 INFO]: Preparing spawn area: 61%
+>   [03:00:21 INFO]: Time elapsed: 3686 ms
+>   [03:00:21 INFO]: Preparing start region for dimension minecraft:the_end
+>   [03:00:21 INFO]: Preparing spawn area: 2%
+>   [03:00:21 INFO]: Preparing spawn area: 18%
+>   [03:00:22 INFO]: Preparing spawn area: 18%
+>   [03:00:22 INFO]: Preparing spawn area: 18%
+>   [03:00:22 INFO]: Time elapsed: 1739 ms
+>   [03:00:22 INFO]: [Quests] Enabling Quests v5.3.3-b571
+>   [03:00:23 INFO]: [Quests] Attempting to initialize Legacy Material Support. Ignore any warning(s) that follow.
+>   [33;1m[03:00:23 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[m>   [03:00:42 INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+>   [03:00:42 INFO]: [Quests] Loading storage implementation: YAML
+>   [03:00:42 INFO]: [NameLookupProbe] Enabling NameLookupProbe v1.0
+>   [03:00:42 INFO]: [spark] Starting background profiler...
+>   [03:00:42 INFO]: [spark] The async-profiler engine is not supported for your os/arch (macosx/x86_64), so the built-in Java engine will be used instead.
+>   [03:00:42 INFO]: Done preparing level "world" (30.672s)
+>   [03:00:42 INFO]: Running delayed init tasks
+>   [03:00:42 INFO]: Done (58.075s)! For help, type "help"
+>   [03:00:42 INFO]: *************************************************************************************
+>   [03:00:42 INFO]: This is the first time you're starting this server.
+>   [03:00:42 INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+>   [03:00:42 INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+>   [03:00:42 INFO]: *************************************************************************************
+>   [03:00:43 INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 804 Phrase(s)
+> >   [03:00:57 INFO]: [NameLookupProbe] Real server: 1.21.4-232-12d8fe0 (MC: 1.21.4); Quests 5.3.3-b571; YAML backend; public async storage API; loading=false.
+>   [03:00:57 INFO]: [NameLookupProbe] Loaded Quests code: file:<workspace>/paper-probe/server-baseline/plugins/.paper-remapped/Quests.jar
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] PASS control save preserves YAML bytes
+>   [33;1m[03:00:57 WARN]: Nag author(s): '[]' of 'NameLookupProbe v1.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] PASS name lookup returns the stored name
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] PASS registered quester identity is preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL current quest and stage are preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL current stage object is preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL quest progress object is preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL objective counts are preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL completion count is preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] PASS completed quests and timestamps are preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] PASS quest points are preserved
+>   [03:00:57 INFO]: [NameLookupProbe] [STDOUT] FAIL save after name lookup preserves YAML bytes
+>   [31;1m[03:00:57 ERROR]: [NameLookupProbe] FAIL: name lookup probe; evidence at plugins/NameLookupProbe/evidence-1793991657351
+java.lang.AssertionError: Name lookup lost quest data; see plugins/NameLookupProbe/evidence-1793991657351
+	at NameLookupProbe.jar/regression.NameLookupScenario.run(NameLookupScenario.java:102) ~[NameLookupProbe.jar:?]
+	at NameLookupProbe.jar/regression.NameLookupProbe.onCommand(NameLookupProbe.java:50) ~[NameLookupProbe.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[m> >   [03:01:17 INFO]: Stopping the server
+>   [03:01:17 INFO]: Stopping server
+>   [03:01:17 INFO]: [NameLookupProbe] Disabling NameLookupProbe v1.0
+>   [03:01:17 INFO]: [Quests] Disabling Quests v5.3.3-b571
+>   [03:01:22 INFO]: [Quests] Saving Quester data...
+>   [03:01:22 INFO]: [Quests] Closing storage...
+>   [03:01:22 INFO]: Saving players
+>   [03:01:22 INFO]: Saving worlds
+>   [03:01:22 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+>   [03:01:22 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+>   [03:01:22 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+>   [03:01:22 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+>   [03:01:23 INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 1.52s
+>   [03:01:23 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+>   [03:01:23 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+>   [03:01:24 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+>   [03:01:24 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+>   [03:01:24 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+>   [03:01:24 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+>   [03:01:24 INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.67s
+>   [03:01:24 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+>   [03:01:24 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+>   [03:01:24 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+>   [03:01:24 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+>   [03:01:24 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+>   [03:01:24 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+>   [03:01:25 INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.55s
+>   [03:01:25 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+>   [03:01:25 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+>   [03:01:25 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+>   [03:01:25 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+>   [03:01:25 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+>   [03:01:25 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+>   [03:01:25 INFO]: Waiting for I/O tasks to complete...
+>   [03:01:25 INFO]: All I/O tasks to complete
+> [03:01:25 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:01:25 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
